@@ -10,9 +10,9 @@ const leitura = (arr = [], response = '') => {
             break;
     } 
     
-    arr.push(response)
+    arr.push(response);
 }
-    return arr.sort().join('\n')
+    return arr.sort().join('\n');
 }
 
 console.log(leitura())
